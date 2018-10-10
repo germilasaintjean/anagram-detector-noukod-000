@@ -6,7 +6,7 @@ def initialize(word)
   @word = word
 end
 def match
-  @word.match do{}
+  @word.match do{[]}
   end
 end
 end# Your code goes here!
