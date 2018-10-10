@@ -1,12 +1,12 @@
 class Anagram
 
-attr_accessor :word
+attr_accessor :matches
 
 def initialize(word)
   @word = word
 end
 def match
-  @word.match do{[]}
+  @word.matches do{[]}
   end
-end
+  end
 end# Your code goes here!
